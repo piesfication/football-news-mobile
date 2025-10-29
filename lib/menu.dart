@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class MyHomePage extends StatelessWidget {
     MyHomePage({super.key, required ColorScheme colorScheme}); //sudah ada pada code sebelumnya
 
-    final String nama = "Lionel Messi";//nama
-    final String npm = "2406275678"; //npm
+    final String nama = "Muhammad Rafi Sugianto";//nama
+    final String npm = "2406357135"; //npm
     final String kelas = "B"; //kelas
 
     final List<ItemHomepage> items = [

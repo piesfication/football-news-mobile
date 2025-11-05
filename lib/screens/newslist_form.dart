@@ -204,7 +204,7 @@ class _NewsFormPageState extends State<NewsFormPage> {
                         }
                       },
                       child: const Text(
-                        "Simpan",
+                        "Save",
                         style: TextStyle(color: Colors.white),
                       ),
                     ),

@@ -191,16 +191,26 @@ class _NewsFormPageState extends State<NewsFormPage> {
                                 ),
                                 actions: [
                                   TextButton(
+                                    
                                     child: const Text('OK'),
                                     onPressed: () {
                                       Navigator.pop(context);
+                                      _formKey.currentState!.reset();
+                                      setState(() {
+                                        _title = "";
+                                        _content = "";
+                                        _thumbnail = "";
+                                        _category = "update";
+                                        _isFeatured = false;
+                                      });
+
                                     },
                                   ),
                                 ],
                               );
                             },
                           );
-                          _formKey.currentState!.reset();
+                          // _formKey.currentState!.reset();
                         }
                       },
                       child: const Text(
